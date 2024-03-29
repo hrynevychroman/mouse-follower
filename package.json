@@ -2,7 +2,7 @@
   "name": "@greenwich/lib-template",
   "shortName": "lib-template",
   "type": "module",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.1-beta.2",
   "packageManager": "pnpm@8.14.0",
   "description": "_description_",
   "author": "Roman Hrynevych <hrynevych.romann@gmail.com>",
