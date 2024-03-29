@@ -1,18 +1,18 @@
 {
-  "name": "@greenwich/lib-template",
-  "shortName": "lib-template",
+  "name": "@greenwichlab/mouse-follower",
+  "shortName": "mouse-follower",
   "type": "module",
   "version": "0.0.1-beta.2",
   "packageManager": "pnpm@8.14.0",
   "description": "_description_",
   "author": "Roman Hrynevych <hrynevych.romann@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/romanhrynevych/lib-template#readme",
+  "homepage": "https://github.com/romanhrynevych/mouse-follower#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/romanhrynevych/lib-template.git"
+    "url": "git+https://github.com/romanhrynevych/mouse-follower.git"
   },
-  "bugs": "https://github.com/romanhrynevych/lib-template/issues",
+  "bugs": "https://github.com/romanhrynevych/mouse-follower/issues",
   "sideEffects": false,
   "exports": {
     ".": {
@@ -25,9 +25,7 @@
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "dev": "npm-run-all --parallel lib:dev play:dev",
     "lib:build": "pnpm rollup:full & pnpm rollup:core",

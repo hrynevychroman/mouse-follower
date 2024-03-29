@@ -1,4 +1,4 @@
-# @greenwich/lib-template
+# @greenwichlab/mouse-follower
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -8,7 +8,7 @@
 
 # Usage
 
-For usage of this library, just replace all `lib-template` with your library name.
+For usage of this library, just replace all `mouse-follower` with your library name.
 
 Pnpm is a main package manager for this project. You can install it from [pnpm.io](https://pnpm.io/)
 
@@ -40,7 +40,7 @@ To config your github pages, go to `Settings` -> `Pages` and select `Source` to 
 
 # Documentation
 
-[Link ❤️](https://romanhrynevych.github.io/lib-template/)
+[Link ❤️](https://romanhrynevych.github.io/mouse-follower/)
 
 # Release to `npm`
 
@@ -53,15 +53,15 @@ pnpm run release
 # Basic usage
 
 ```bash
-npm i @greenwich/lib-template
+npm i @greenwichlab/mouse-follower
 ```
 
 ```bash
-pnpm i @greenwich/lib-template
+pnpm i @greenwichlab/mouse-follower
 ```
 
 ```bash
-yarn add @greenwich/lib-template
+yarn add @greenwichlab/mouse-follower
 ```
 
 ## License
@@ -70,13 +70,13 @@ yarn add @greenwich/lib-template
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@greenwich/lib-template?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/@greenwich/lib-template
-[npm-downloads-src]: https://img.shields.io/npm/dm/@greenwich/lib-template?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/@greenwich/lib-template
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/@greenwich/lib-template?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=@greenwich/lib-template
-[license-src]: https://img.shields.io/github/license/@greenwich/lib-template.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/@greenwich/lib-template/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/@greenwichlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@greenwichlab/mouse-follower
+[npm-downloads-src]: https://img.shields.io/npm/dm/@greenwichlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@greenwichlab/mouse-follower
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@greenwichlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@greenwichlab/mouse-follower
+[license-src]: https://img.shields.io/github/license/@greenwichlab/mouse-follower.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/@greenwichlab/mouse-follower/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/@greenwich/lib-template
+[jsdocs-href]: https://www.jsdocs.io/package/@greenwichlab/mouse-follower

@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Package Name',
   description: 'A Package Name Docs',
-  base: '/lib-template/',
+  base: '/mouse-follower/',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

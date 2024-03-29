@@ -1,5 +1,5 @@
 import './style.css'
-import { sum } from '@greenwich/lib-template'
+import { sum } from '@greenwichlab/mouse-follower'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
