@@ -2,7 +2,7 @@
   "name": "@greenwich/lib-template",
   "shortName": "lib-template",
   "type": "module",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "packageManager": "pnpm@8.14.0",
   "description": "_description_",
   "author": "Roman Hrynevych <hrynevych.romann@gmail.com>",
@@ -30,7 +30,7 @@
   ],
   "scripts": {
     "dev": "npm-run-all --parallel lib:dev play:dev",
-    "build": "pnpm rollup:full & pnpm rollup:core",
+    "lib:build": "pnpm rollup:full & pnpm rollup:core",
     "lib:dev": "rollup --config rollup-full.config.ts --configPlugin @rollup/plugin-typescript --watch",
     "rollup:full": "rollup --config rollup-full.config.ts --configPlugin @rollup/plugin-typescript",
     "rollup:core": "rollup --config rollup-core.config.ts --configPlugin @rollup/plugin-typescript",
