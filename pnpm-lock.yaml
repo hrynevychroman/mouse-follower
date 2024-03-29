@@ -95,7 +95,7 @@ importers:
 
   playground:
     dependencies:
-      '@greenwichlab/mouse-follower':
+      '@gwlab/mouse-follower':
         specifier: workspace:*
         version: link:..
     devDependencies:

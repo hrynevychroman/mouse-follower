@@ -1,4 +1,4 @@
-# @greenwichlab/mouse-follower
+# @gwlab/mouse-follower
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -53,15 +53,15 @@ pnpm run release
 # Basic usage
 
 ```bash
-npm i @greenwichlab/mouse-follower
+npm i @gwlab/mouse-follower
 ```
 
 ```bash
-pnpm i @greenwichlab/mouse-follower
+pnpm i @gwlab/mouse-follower
 ```
 
 ```bash
-yarn add @greenwichlab/mouse-follower
+yarn add @gwlab/mouse-follower
 ```
 
 ## License
@@ -70,13 +70,13 @@ yarn add @greenwichlab/mouse-follower
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@greenwichlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/@greenwichlab/mouse-follower
-[npm-downloads-src]: https://img.shields.io/npm/dm/@greenwichlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/@greenwichlab/mouse-follower
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/@greenwichlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=@greenwichlab/mouse-follower
-[license-src]: https://img.shields.io/github/license/@greenwichlab/mouse-follower.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/@greenwichlab/mouse-follower/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/@gwlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@gwlab/mouse-follower
+[npm-downloads-src]: https://img.shields.io/npm/dm/@gwlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@gwlab/mouse-follower
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@gwlab/mouse-follower?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@gwlab/mouse-follower
+[license-src]: https://img.shields.io/github/license/@gwlab/mouse-follower.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/@gwlab/mouse-follower/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/@greenwichlab/mouse-follower
+[jsdocs-href]: https://www.jsdocs.io/package/@gwlab/mouse-follower

@@ -6,7 +6,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@greenwichlab/mouse-follower": "workspace:*"
+    "@gwlab/mouse-follower": "workspace:*"
   },
   "devDependencies": {
     "pathe": "^1.1.2",
