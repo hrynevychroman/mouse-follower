@@ -48,6 +48,10 @@
     "play:build": "pnpm -F=playground build",
     "play:preview": "pnpm -F=playground preview"
   },
+  "dependencies": {
+    "defu": "^6.1.4",
+    "gsap": "^3.12.5"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.11.5",
     "@antfu/ni": "^0.21.12",

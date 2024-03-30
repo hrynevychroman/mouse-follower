@@ -1,8 +1,13 @@
 import './style.css'
-import { sum } from '@gwlab/mouse-follower'
+import '@gwlab/mouse-follower/dist/css/mouse-follower.css'
+import MouseFollower from '@gwlab/mouse-follower'
+import gsap from 'gsap'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
+
+MouseFollower.registerGSAP(gsap)
+const _mouseFollower = new MouseFollower()
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -20,7 +25,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       Click on the Vite and TypeScript logos to learn more
     </p>
     <p>
-      Sum of 2 + 5 is ${sum(2, 5)}
+      Sum of 2 + 5 is
     </p>
   </div>
 `
