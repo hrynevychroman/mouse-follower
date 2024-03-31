@@ -82,7 +82,7 @@ export interface MouseFollowerOptions {
   /**
    * Timing function of cursor movement.
    */
-  ease: string
+  ease: gsap.TweenVars['ease']
   /**
    * Overwrite or remain cursor position when `mousemove` event happens.
    */
