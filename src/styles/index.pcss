@@ -1,4 +1,5 @@
 :root {
+  --mf-color-base-inverted: #fff;
   --mf-color-base: #000;
   --mf-color-text: #fff;
 }
@@ -29,7 +30,7 @@
 }
 
 .mf-cursor.-inverse {
-  color: invert(var(--mf-color-base));
+  color: var(--mf-color-base-inverted);
 }
 
 .mf-cursor.-exclusion {
@@ -39,7 +40,7 @@
 }
 
 .mf-cursor.-exclusion:before {
-  background: invert(var(--mf-color-base));
+  background: var(--mf-color-base-inverted);
 }
 
 .mf-cursor.-pointer:before {

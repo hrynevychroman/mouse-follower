@@ -43,7 +43,7 @@ export default class MouseFollower {
     this.gsap = gsap
   }
 
-  constructor(options = {}) {
+  constructor(options: Partial<MouseFollowerOptions>) {
     this.options = defu(options, {
       el: null,
       container: document.body,
@@ -81,7 +81,7 @@ export default class MouseFollower {
       hideTimeout: 300,
       hideMediaTimeout: 300,
       initialPos: [-window.innerWidth, -window.innerHeight],
-    })
+    }) as MouseFollowerOptions
 
     if (this.options.visible && this.options.stateDetection == null) {
       this.options.stateDetection = {}
@@ -319,9 +319,7 @@ export default class MouseFollower {
     this.setter.y(this.pos.y)
 
     if (this.skewing) {
-      const distance = Math.sqrt(
-        this.vel.x ** 2 + this.vel.y ** 2,
-      )
+      const distance = Math.sqrt(this.vel.x ** 2 + this.vel.y ** 2)
       const scale
         = Math.min(
           distance * this.options.skewingDelta,
@@ -368,8 +366,7 @@ export default class MouseFollower {
   toggle(force: boolean = false) {
     if (force === true || (force !== false && !this.visible))
       this.show()
-    else
-      this.hide()
+    else this.hide()
   }
 
   /**
@@ -408,8 +405,7 @@ export default class MouseFollower {
       || (force !== false && !this.el?.classList.contains(state))
     )
       this.addState(state)
-    else
-      this.removeState(state)
+    else this.removeState(state)
   }
 
   /**
@@ -564,7 +560,7 @@ export default class MouseFollower {
    * Attach an event handler function.
    */
   on(event: keyof HTMLElementEventMap, callback?: Function) {
-    if (!(Array.isArray(this.events.get(event))))
+    if (!Array.isArray(this.events.get(event)))
       this.off(event)
     callback && this.events.get(event)?.push(callback)
   }
@@ -575,8 +571,7 @@ export default class MouseFollower {
   off(event: keyof HTMLElementEventMap, callback?: Function) {
     if (callback)
       this.events.get(event)?.filter(f => f !== callback)
-    else
-      this.events.delete(event)
+    else this.events.delete(event)
   }
 
   /**

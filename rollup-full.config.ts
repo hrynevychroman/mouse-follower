@@ -24,12 +24,7 @@ export const banner = `/*!
 */
 `
 
-const cssComponents = [
-  [
-    'themes/_custom.pcss',
-    'custom-theme.css',
-  ],
-]
+const cssComponents = [['themes/_custom.pcss', 'custom-theme.css']]
 
 const cssComponentsRollup = cssComponents.map((component) => {
   const src = `${srcDir}/styles/${component[0]}`
@@ -45,12 +40,16 @@ const cssComponentsRollup = cssComponents.map((component) => {
       plugins: [
         postcssImport(),
         postcssCombineDuplicatedSelectors(),
-        productionMode && cssnanoPlugin({
-          preset: ['default', {
-            discardComments: {
-              removeAll: true,
+        productionMode
+        && cssnanoPlugin({
+          preset: [
+            'default',
+            {
+              discardComments: {
+                removeAll: true,
+              },
             },
-          }],
+          ],
         }),
       ],
     }),
@@ -81,8 +80,8 @@ export const terserPlugin = terser({
   },
 })
 
-export default defineConfig(
-  [{
+export default defineConfig([
+  {
     input,
     output: [
       {
@@ -98,11 +97,9 @@ export default defineConfig(
         banner,
       },
     ],
-    plugins: [
-      ts(),
-      productionMode && terserPlugin,
-    ],
-  }, {
+    plugins: [ts(), productionMode && terserPlugin],
+  },
+  {
     input: `${srcDir}/styles/index.pcss`,
     output: {
       file: `${distDir}/css/${pkg.shortName}.css`,
@@ -112,12 +109,16 @@ export default defineConfig(
       plugins: [
         postcssImport(),
         postcssCombineDuplicatedSelectors(),
-        productionMode && cssnanoPlugin({
-          preset: ['default', {
-            discardComments: {
-              removeAll: true,
+        productionMode
+        && cssnanoPlugin({
+          preset: [
+            'default',
+            {
+              discardComments: {
+                removeAll: true,
+              },
             },
-          }],
+          ],
         }),
       ],
     }),
@@ -126,5 +127,6 @@ export default defineConfig(
         return
       warn(warning)
     },
-  }, ...cssComponentsRollup] as RollupOptions[],
-)
+  },
+  ...cssComponentsRollup,
+] as RollupOptions[])

@@ -7,7 +7,9 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
 MouseFollower.registerGSAP(gsap)
-const _mouseFollower = new MouseFollower()
+const _mouseFollower = new MouseFollower({
+  className: 'mf-cursor -exclusion',
+})
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
