@@ -12,6 +12,7 @@ export default class MouseFollower {
   pos: { x: number, y: number }
   vel: { x: number, y: number }
 
+  bgElement!: HTMLElement | null
   event!: Event
   events!: Map<string, Function[]>
   inner!: HTMLElement
@@ -52,6 +53,7 @@ export default class MouseFollower {
       textClassName: 'mf-cursor-text',
       mediaClassName: 'mf-cursor-media',
       mediaBoxClassName: 'mf-cursor-media-box',
+      bgElementClassName: 'mf-cursor-bg',
       iconSvgClassName: 'mf-svgsprite',
       iconSvgNamePrefix: '-',
       iconSvgSrc: '',
@@ -123,6 +125,7 @@ export default class MouseFollower {
   /**
    * Create cursor DOM element and append to container.
    */
+
   create() {
     this.el = document.createElement('div')
     this.el.className = this.options.className
@@ -140,9 +143,13 @@ export default class MouseFollower {
     this.mediaBox = document.createElement('div')
     this.mediaBox.className = this.options.mediaBoxClassName
 
+    this.bgElement = document.createElement('div')
+    this.bgElement.className = this.options.bgElementClassName
+
     this.media.appendChild(this.mediaBox)
     this.inner.appendChild(this.media)
     this.inner.appendChild(this.text)
+    this.el.appendChild(this.bgElement)
     this.el.appendChild(this.inner)
     this.container?.appendChild(this.el)
   }

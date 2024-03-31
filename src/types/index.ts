@@ -28,6 +28,10 @@ export interface MouseFollowerOptions {
    */
   mediaBoxClassName: string
   /**
+   * Background element class name.
+   */
+  bgElementClassName: string
+  /**
    * SVG sprite class name.
    */
   iconSvgClassName: string
