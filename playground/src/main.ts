@@ -8,7 +8,7 @@ import { setupCounter } from './counter.ts'
 
 MouseFollower.registerGSAP(gsap)
 const _mouseFollower = new MouseFollower({
-  className: 'mf-cursor -only-bg-exclusion',
+  className: 'mf-cursor -exclusion',
 })
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
