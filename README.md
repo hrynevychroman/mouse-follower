@@ -10,63 +10,9 @@ This is a Typescript continuation of the original [Mouse Follower](https://githu
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-# Usage
-
-For usage of this library, just replace all `mouse-follower` with your library name.
-
-Pnpm is a main package manager for this project. You can install it from [pnpm.io](https://pnpm.io/)
-
-To run dev command first install the dependencies and run `dev` command.
-
-```bash
-pnpm install
-```
-
-```bash
-pnpm dev
-```
-
-# Playground
-
-This is a playground for your library. You can test your library here. You can also use it as a demo for your library.
-
-It uses `vite` with `typescript` under the hood, so it's fast and easy to use.
-
-# Docs
-
-This is a documentation for your library. You can write your documentation in `markdown` and it will be automatically generated.
-
-It uses `vitepress` under the hood, so it's fast and easy to use.
-
-Docs will automatically be generated and published to your github pages.
-
-To config your github pages, go to `Settings` -> `Pages` and select `Source` to `GitHub Actions`.
-
 # Documentation
 
 [Link ❤️](https://romanhrynevych.github.io/mouse-follower/)
-
-# Release to `npm`
-
-To publish your library, you can use `pnpm publish` command.
-
-```bash
-pnpm run release
-```
-
-# Basic usage
-
-```bash
-npm i @gwlab/mouse-follower
-```
-
-```bash
-pnpm i @gwlab/mouse-follower
-```
-
-```bash
-yarn add @gwlab/mouse-follower
-```
 
 ## License
 
