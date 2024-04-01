@@ -12,6 +12,7 @@
   --mf-cursor-text-size: 36px;
   --mf-cursor-text-font-size: 16px;
   --mf-cursor-text-line-height: 20px;
+  --mf-cursor-text-letter-spacing: initial;
 
   --mf-cursor-media-size: 400px;
 
