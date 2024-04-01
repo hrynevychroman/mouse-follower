@@ -52,7 +52,7 @@
     height: var(--mf-cursor-size, 48px);
     transform: scale(var(--mf-cursor-default-scale, 0.2));
 
-    background: currentColor;
+    background: var(--mf-color-base, currentColor);
     border-radius: 50%;
 
     transition:
