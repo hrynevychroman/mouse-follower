@@ -2,23 +2,22 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'Package Name',
-  description: 'A Package Name Docs',
+  title: 'Mouse Follower',
+  description: 'A simple mouse follower based on GSAP',
   base: '/mouse-follower/',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Config', link: '/css-variables' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Configuration',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Default CSS Variables', link: '/css-variables' },
         ],
       },
     ],
