@@ -10,7 +10,12 @@
   <body class="flex flex-col gap-4">
     <h1>Hello!</h1>
 
-    <div class="size-40 bg-yellow-800" data-cursor-text="HELLO"></div>
+    <div class="size-80 bg-gradient-to-tr from-red-500 to-blue-300 from-20% via-green-300 to-70% relative" data-cursor-text="HELLO">
+      <span class="size-20 flex items-center justify-center relative top-4 left-4">
+        <span class="size-full absolute rounded inset-0 bg-yellow-400 mix-blend-exclusion"></span>
+        <span class="text-white z-10">TEXT</span>
+      </span>
+    </div>
 
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>

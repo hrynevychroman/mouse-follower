@@ -1,4 +1,4 @@
-import type { LoggingFunction, RollupLog, RollupOptions } from 'rollup'
+import type { RollupOptions } from 'rollup'
 import { defineConfig } from 'rollup'
 import terser from '@rollup/plugin-terser'
 import ts from 'rollup-plugin-ts'
