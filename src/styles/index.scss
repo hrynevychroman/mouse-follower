@@ -108,21 +108,21 @@
 
   &-text {
     position: absolute;
-    top: calc(var(--mf-color-text-size, 36px) / 2 * -1);
-    left: calc(var(--mf-color-text-size, 36px) / 2 * -1);
-    width: var(--mf-color-text-size, 36px);
-    height: var(--mf-color-text-size, 36px);
+    top: calc(var(--mf-cursor-text-size, 36px) / 2 * -1);
+    left: calc(var(--mf-cursor-text-size, 36px) / 2 * -1);
+    width: var(--mf-cursor-text-size, 36px);
+    height: var(--mf-cursor-text-size, 36px);
     display: flex;
     align-items: center;
     justify-content: center;
     transform: scale(0) rotate(10deg);
 
     opacity: 0;
-    color: var(--mf-color-text, #fff);
+    color: var(--mf-cursor-text, #fff);
 
-    font-size: var(--mf-color-text-font-size, 16px);
-    line-height: var(--mf-color-text-line-height, 20px);
-    letter-spacing: var(--mf-color-text-letter-spacing, initial);
+    font-size: var(--mf-cursor-text-font-size, 16px);
+    line-height: var(--mf-cursor-text-line-height, 20px);
+    letter-spacing: var(--mf-cursor-text-letter-spacing, initial);
     text-align: center;
 
     transition:
