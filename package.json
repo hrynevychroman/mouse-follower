@@ -2,7 +2,7 @@
   "name": "@gwlab/mouse-follower",
   "shortName": "mouse-follower",
   "type": "module",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "packageManager": "pnpm@8.15.5",
   "description": "_description_",
   "author": "Roman Hrynevych <hrynevych.romann@gmail.com>",
